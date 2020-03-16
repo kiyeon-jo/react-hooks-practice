@@ -1,11 +1,16 @@
 import React from "react"
 import "./styles.css"
+import { AjaxListWrapper } from "./AjaxListWrapper/AjaxListWrapper"
 
-export default function App() {
+const App = () => {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <h1>React Hooks Practice</h1>
+      <div>
+        <AjaxListWrapper />
+      </div>
     </div>
   )
 }
+
+export default App

@@ -2,3 +2,35 @@
   font-family: sans-serif;
   text-align: center;
 }
+button {
+  font-size: 15px;
+  padding: 5px 10px;
+  margin: 0 5px;
+}
+
+.ajax-title {
+  color: #555;
+  font-weight: bold;
+  font-size: 20px;
+  /* border: 1px solid #ddd; */
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 30px 0;
+  padding: 10px;
+  background-color: rgb(238, 238, 238);
+}
+
+.ajax-title > span {
+  font-size: 15px;
+  color: rgb(67, 196, 42);
+}
+
+.ajax-content {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  margin: 10px;
+}
