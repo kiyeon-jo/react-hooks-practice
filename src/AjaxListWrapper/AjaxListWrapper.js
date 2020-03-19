@@ -20,10 +20,10 @@ export const AjaxListWrapper = () => {
       >
         posts
       </button>
-      <div className="ajax-title">
+      <div className="title">
         Type : <span>{listType}</span>
       </div>
-      <div className="ajax-content">
+      <div className="content">
         <AjaxList listType={listType} />
       </div>
     </div>
